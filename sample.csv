@@ -1,0 +1,306 @@
+,Name,Source,Length,has_knots
+0,PDB_00036.dp,RCSB Protein Data Bank 1D4R,84,0
+1,PDB_00095.dp,RCSB Protein Data Bank 1I9V,75,0
+2,PDB_00136.dp,RCSB Protein Data Bank 1KXK,70,0
+3,PDB_00157.dp,RCSB Protein Data Bank 1MME,82,0
+4,PDB_00185.dp,RCSB Protein Data Bank 1P5O,77,0
+5,PDB_00186.dp,RCSB Protein Data Bank 1P5P,77,0
+6,PDB_00192.dp,RCSB Protein Data Bank 1Q93,81,0
+7,PDB_00193.dp,RCSB Protein Data Bank 1Q96,81,0
+8,PDB_00195.dp,RCSB Protein Data Bank 1QBP,84,0
+9,PDB_00229.dp,RCSB Protein Data Bank 1YFG,75,0
+10,PDB_00250.dp,RCSB Protein Data Bank 357D,60,0
+11,PDB_00253.dp,RCSB Protein Data Bank 364D,60,0
+12,PDB_00326.dp,RCSB Protein Data Bank 1C04,87,0
+13,PDB_00335.dp,RCSB Protein Data Bank 1CX0,72,1
+14,PDB_00346.dp,RCSB Protein Data Bank 1DRZ,72,1
+15,PDB_00362.dp,RCSB Protein Data Bank 1EIY,76,0
+16,PDB_00373.dp,RCSB Protein Data Bank 1EUQ,72,0
+17,PDB_00374.dp,RCSB Protein Data Bank 1EUY,73,0
+18,PDB_00376.dp,RCSB Protein Data Bank 1EXD,73,0
+19,PDB_00400.dp,RCSB Protein Data Bank 1FEU,80,0
+20,PDB_00402.dp,RCSB Protein Data Bank 1FFY,75,0
+21,PDB_00425.dp,RCSB Protein Data Bank 1GTR,74,0
+22,PDB_00426.dp,RCSB Protein Data Bank 1GTS,74,0
+23,PDB_00454.dp,RCSB Protein Data Bank 1I6U,74,0
+24,PDB_00474.dp,RCSB Protein Data Bank 1J1U,74,0
+25,PDB_00481.dp,RCSB Protein Data Bank 1JBR,62,0
+26,PDB_00570.dp,RCSB Protein Data Bank 1MJI,68,0
+27,PDB_00620.dp,RCSB Protein Data Bank 1O0B,74,0
+28,PDB_00621.dp,RCSB Protein Data Bank 1O0C,74,0
+29,PDB_00637.dp,RCSB Protein Data Bank 1P6V,69,0
+30,PDB_00669.dp,RCSB Protein Data Bank 1QRS,74,0
+31,PDB_00670.dp,RCSB Protein Data Bank 1QRT,74,0
+32,PDB_00671.dp,RCSB Protein Data Bank 1QRU,74,0
+33,PDB_00672.dp,RCSB Protein Data Bank 1QTQ,74,0
+34,PDB_00673.dp,RCSB Protein Data Bank 1QU2,75,0
+35,PDB_00674.dp,RCSB Protein Data Bank 1QU3,75,0
+36,PDB_00714.dp,RCSB Protein Data Bank 1SJ3,73,1
+37,PDB_00715.dp,RCSB Protein Data Bank 1SJ4,73,1
+38,PDB_00716.dp,RCSB Protein Data Bank 1SJF,74,1
+39,PDB_00724.dp,RCSB Protein Data Bank 1T0D,66,0
+40,PDB_00732.dp,RCSB Protein Data Bank 1TFW,78,0
+41,PDB_00733.dp,RCSB Protein Data Bank 1TFY,77,0
+42,PDB_00742.dp,RCSB Protein Data Bank 1U0B,74,0
+43,PDB_00749.dp,RCSB Protein Data Bank 1U8D,67,1
+44,PDB_00760.dp,RCSB Protein Data Bank 1VBX,73,1
+45,PDB_00761.dp,RCSB Protein Data Bank 1VBY,73,1
+46,PDB_00762.dp,RCSB Protein Data Bank 1VBZ,73,1
+47,PDB_00763.dp,RCSB Protein Data Bank 1VC0,73,1
+48,PDB_00764.dp,RCSB Protein Data Bank 1VC5,70,1
+49,PDB_00765.dp,RCSB Protein Data Bank 1VC6,72,1
+50,PDB_00766.dp,RCSB Protein Data Bank 1VC7,74,1
+51,PDB_00767.dp,RCSB Protein Data Bank 1VFG,67,0
+52,PDB_00800.dp,RCSB Protein Data Bank 1WSU,65,0
+53,PDB_00806.dp,RCSB Protein Data Bank 1X9C,61,0
+54,PDB_00807.dp,RCSB Protein Data Bank 1X9K,62,0
+55,PDB_00828.dp,RCSB Protein Data Bank 1Y26,71,1
+56,PDB_00829.dp,RCSB Protein Data Bank 1Y27,68,1
+57,PDB_00892.dp,RCSB Protein Data Bank 1ZEV,72,0
+58,PDB_00894.dp,RCSB Protein Data Bank 1ZFV,61,0
+59,PDB_00895.dp,RCSB Protein Data Bank 1ZFX,61,0
+60,PDB_00901.dp,RCSB Protein Data Bank 1ZJW,74,0
+61,PDB_00903.dp,RCSB Protein Data Bank 1ZO1,76,0
+62,PDB_00924.dp,RCSB Protein Data Bank 2ADT,86,0
+63,PDB_00926.dp,RCSB Protein Data Bank 2AKE,72,0
+64,PDB_00944.dp,RCSB Protein Data Bank 2B57,65,1
+65,PDB_00956.dp,RCSB Protein Data Bank 2BCY,61,0
+66,PDB_00961.dp,RCSB Protein Data Bank 2BH2,60,0
+67,PDB_00989.dp,RCSB Protein Data Bank 2D1A,78,0
+68,PDB_00990.dp,RCSB Protein Data Bank 2D1B,78,1
+69,PDB_00991.dp,RCSB Protein Data Bank 2D2K,61,0
+70,PDB_00992.dp,RCSB Protein Data Bank 2D2L,60,0
+71,PDB_00999.dp,RCSB Protein Data Bank 2DET,70,0
+72,PDB_01002.dp,RCSB Protein Data Bank 2DR2,75,0
+73,PDB_01009.dp,RCSB Protein Data Bank 2DU3,71,1
+74,PDB_01010.dp,RCSB Protein Data Bank 2DU4,71,1
+75,PDB_01011.dp,RCSB Protein Data Bank 2DU5,71,0
+76,PDB_01012.dp,RCSB Protein Data Bank 2DU6,71,0
+77,PDB_01020.dp,RCSB Protein Data Bank 2EES,68,1
+78,PDB_01021.dp,RCSB Protein Data Bank 2EET,68,1
+79,PDB_01022.dp,RCSB Protein Data Bank 2EEU,68,1
+80,PDB_01023.dp,RCSB Protein Data Bank 2EEV,68,1
+81,PDB_01024.dp,RCSB Protein Data Bank 2EEW,68,1
+82,PDB_01052.dp,RCSB Protein Data Bank 2FGP,61,0
+83,PDB_01060.dp,RCSB Protein Data Bank 2G32,64,0
+84,PDB_01061.dp,RCSB Protein Data Bank 2G3S,80,0
+85,PDB_01066.dp,RCSB Protein Data Bank 2G9C,68,1
+86,PDB_01074.dp,RCSB Protein Data Bank 2GJW,75,0
+87,PDB_01075.dp,RCSB Protein Data Bank 2GM0,70,0
+88,PDB_01077.dp,RCSB Protein Data Bank 2GOZ,63,0
+89,PDB_01078.dp,RCSB Protein Data Bank 2GPM,64,0
+90,PDB_01079.dp,RCSB Protein Data Bank 2GQ4,64,0
+91,PDB_01080.dp,RCSB Protein Data Bank 2GQ5,64,0
+92,PDB_01081.dp,RCSB Protein Data Bank 2GQ6,64,0
+93,PDB_01082.dp,RCSB Protein Data Bank 2GQ7,64,0
+94,PDB_01111.dp,RCSB Protein Data Bank 2HOJ,75,0
+95,PDB_01112.dp,RCSB Protein Data Bank 2HOK,75,0
+96,PDB_01113.dp,RCSB Protein Data Bank 2HOL,75,0
+97,PDB_01114.dp,RCSB Protein Data Bank 2HOM,76,0
+98,PDB_01115.dp,RCSB Protein Data Bank 2HOO,74,0
+99,PDB_01116.dp,RCSB Protein Data Bank 2HOP,69,0
+100,PDB_01124.dp,RCSB Protein Data Bank 2I7E,86,0
+101,PDB_01125.dp,RCSB Protein Data Bank 2I7Z,86,0
+102,PDB_01126.dp,RCSB Protein Data Bank 2I82,79,0
+103,PDB_01128.dp,RCSB Protein Data Bank 2IHX,75,0
+104,PDB_01130.dp,RCSB Protein Data Bank 2IPY,60,0
+105,PDB_01134.dp,RCSB Protein Data Bank 2IY5,76,0
+106,PDB_01156.dp,RCSB Protein Data Bank 2NOK,88,0
+107,PDB_01158.dp,RCSB Protein Data Bank 2NPY,61,0
+108,PDB_01159.dp,RCSB Protein Data Bank 2NPZ,61,0
+109,PDB_01160.dp,RCSB Protein Data Bank 2NQP,65,0
+110,PDB_01181.dp,RCSB Protein Data Bank 2OEU,63,0
+111,PDB_01185.dp,RCSB Protein Data Bank 2OIH,73,1
+112,PDB_01190.dp,RCSB Protein Data Bank 2OJ3,73,1
+113,PDB_01197.dp,RCSB Protein Data Bank 2OUE,61,0
+114,PDB_01199.dp,RCSB Protein Data Bank 2OZB,66,0
+115,PDB_01200.dp,RCSB Protein Data Bank 2P7F,61,0
+116,PDB_01258.dp,RCSB Protein Data Bank 2RD2,74,0
+117,PDB_01259.dp,RCSB Protein Data Bank 2RE8,74,0
+118,PDB_01334.dp,RCSB Protein Data Bank 488D,66,0
+119,RFA_00420.dp,Rfam database,82,0
+120,RFA_00421.dp,Rfam database,81,0
+121,RFA_00422.dp,Rfam database,81,0
+122,RFA_00423.dp,Rfam database,81,0
+123,RFA_00424.dp,Rfam database,81,0
+124,RFA_00450.dp,Rfam database,81,0
+125,RFA_00584.dp,Rfam database,77,0
+126,RFA_00586.dp,Rfam database,89,0
+127,RFA_00593.dp,Rfam database,75,0
+128,RFA_00594.dp,Rfam database,75,0
+129,RFA_00635.dp,Rfam database,89,1
+130,RFA_00636.dp,Rfam database,90,1
+131,RFA_00637.dp,Rfam database,89,1
+132,RFA_00638.dp,Rfam database,89,1
+133,RFA_00640.dp,Rfam database,65,0
+134,RFA_00641.dp,Rfam database,65,0
+135,RFA_00642.dp,Rfam database,77,0
+136,RFA_00643.dp,Rfam database,67,0
+137,RFA_00644.dp,Rfam database,74,0
+138,RFA_00645.dp,Rfam database,70,0
+139,RFA_00646.dp,Rfam database,74,0
+140,RFA_00647.dp,Rfam database,74,0
+141,RFA_00648.dp,Rfam database,74,0
+142,RFA_00649.dp,Rfam database,66,0
+143,RFA_00650.dp,Rfam database,66,0
+144,RFA_00651.dp,Rfam database,65,0
+145,RFA_00652.dp,Rfam database,66,0
+146,RFA_00653.dp,Rfam database,66,0
+147,RFA_00654.dp,Rfam database,70,0
+148,RFA_00655.dp,Rfam database,74,0
+149,RFA_00656.dp,Rfam database,66,0
+150,RFA_00657.dp,Rfam database,66,0
+151,RFA_00767.dp,Rfam database,62,1
+152,RFA_00768.dp,Rfam database,62,1
+153,RFA_00769.dp,Rfam database,63,1
+154,RFA_00770.dp,Rfam database,64,1
+155,RFA_00771.dp,Rfam database,62,1
+156,RFA_00772.dp,Rfam database,62,1
+157,RFA_00773.dp,Rfam database,63,1
+158,RFA_00774.dp,Rfam database,63,1
+159,RFA_00775.dp,Rfam database,63,1
+160,RFA_00776.dp,Rfam database,63,1
+161,RFA_00777.dp,Rfam database,63,1
+162,RFA_00778.dp,Rfam database,63,1
+163,RFA_00779.dp,Rfam database,63,1
+164,RFA_00780.dp,Rfam database,64,1
+165,RFA_00808.dp,Rfam database,64,1
+166,RFA_00809.dp,Rfam database,66,1
+167,SPR_00590.dp,Sprinzl tRNA database,78,0
+168,SPR_00598.dp,Sprinzl tRNA database,78,0
+169,SPR_00610.dp,Sprinzl tRNA database,72,0
+170,SPR_00620.dp,Sprinzl tRNA database,78,0
+171,SPR_00633.dp,Sprinzl tRNA database,72,0
+172,SPR_00721.dp,Sprinzl tRNA database,77,0
+173,SPR_00722.dp,Sprinzl tRNA database,77,0
+174,SPR_00758.dp,Sprinzl tRNA database,78,0
+175,SPR_00759.dp,Sprinzl tRNA database,80,0
+176,SPR_00760.dp,Sprinzl tRNA database,85,0
+177,SPR_00867.dp,Sprinzl tRNA database,77,0
+178,SPR_00868.dp,Sprinzl tRNA database,77,0
+179,SPR_00882.dp,Sprinzl tRNA database,73,0
+180,SPR_00912.dp,Sprinzl tRNA database,78,0
+181,SPR_00913.dp,Sprinzl tRNA database,78,0
+182,SPR_00932.dp,Sprinzl tRNA database,76,0
+183,SPR_00957.dp,Sprinzl tRNA database,78,0
+184,SPR_01040.dp,Sprinzl tRNA database,75,0
+185,SPR_01051.dp,Sprinzl tRNA database,72,0
+186,SPR_01088.dp,Sprinzl tRNA database,77,0
+187,SPR_01095.dp,Sprinzl tRNA database,76,0
+188,SPR_01117.dp,Sprinzl tRNA database,78,0
+189,SPR_01143.dp,Sprinzl tRNA database,72,0
+190,SPR_01157.dp,Sprinzl tRNA database,75,0
+191,SRP_00005.dp,SRP Database,90,0
+192,SRP_00008.dp,SRP Database,77,0
+193,SRP_00042.dp,SRP Database,90,0
+194,SRP_00095.dp,SRP Database,90,0
+195,SRP_00096.dp,SRP Database,89,0
+196,SRP_00101.dp,SRP Database,85,0
+197,SRP_00107.dp,SRP Database,86,0
+198,SRP_00138.dp,SRP Database,90,0
+199,SRP_00139.dp,SRP Database,66,0
+200,SRP_00161.dp,SRP Database,76,0
+201,SRP_00162.dp,SRP Database,77,0
+202,SRP_00163.dp,SRP Database,84,0
+203,SRP_00194.dp,SRP Database,81,0
+204,SRP_00212.dp,SRP Database,88,0
+205,SRP_00214.dp,SRP Database,79,0
+206,SRP_00215.dp,SRP Database,81,0
+207,SRP_00216.dp,SRP Database,83,0
+208,SRP_00217.dp,SRP Database,82,0
+209,SRP_00218.dp,SRP Database,86,0
+210,SRP_00219.dp,SRP Database,82,0
+211,SRP_00220.dp,SRP Database,77,0
+212,SRP_00221.dp,SRP Database,83,0
+213,SRP_00222.dp,SRP Database,79,0
+214,SRP_00223.dp,SRP Database,83,0
+215,SRP_00271.dp,SRP Database,81,0
+216,SRP_00284.dp,SRP Database,87,0
+217,SRP_00285.dp,SRP Database,87,0
+218,SRP_00310.dp,SRP Database,77,0
+219,SRP_00311.dp,SRP Database,77,0
+220,SRP_00313.dp,SRP Database,82,0
+221,SRP_00314.dp,SRP Database,73,0
+222,SRP_00315.dp,SRP Database,77,0
+223,SRP_00316.dp,SRP Database,77,0
+224,SRP_00318.dp,SRP Database,78,0
+225,SRP_00319.dp,SRP Database,77,0
+226,SRP_00320.dp,SRP Database,77,0
+227,SRP_00342.dp,SRP Database,90,0
+228,SRP_00350.dp,SRP Database,89,0
+229,SRP_00351.dp,SRP Database,89,0
+230,SRP_00364.dp,SRP Database,82,0
+231,SRP_00365.dp,SRP Database,83,0
+232,SRP_00383.dp,SRP Database,81,0
+233,PKB47,?,61,1
+234,PKB48,?,61,1
+235,PKB57,?,67,1
+236,PKB68,?,68,1
+237,PKB69,?,61,1
+238,PKB72,?,67,1
+239,PKB75,?,88,1
+240,PKB76,?,89,1
+241,PKB77,?,66,1
+242,PKB78,?,62,1
+243,PKB79,?,61,1
+244,PKB88,?,62,1
+245,PKB98,?,62,1
+246,PKB99,?,63,1
+247,PKB128,?,60,1
+248,PKB129,?,69,1
+249,PKB139,?,70,1
+250,PKB140,?,69,1
+251,PKB141,?,70,1
+252,PKB142,?,71,1
+253,PKB143,?,71,1
+254,PKB144,?,71,1
+255,PKB148,?,73,1
+256,PKB169,?,73,1
+257,PKB170,?,77,1
+258,PKB171,?,76,1
+259,PKB173,?,73,1
+260,PKB177,?,70,1
+261,PKB179,?,69,1
+262,PKB180,?,65,1
+263,PKB193,?,83,1
+264,PKB208,?,74,1
+265,PKB209,?,77,1
+266,PKB210,?,90,1
+267,PKB211,?,81,1
+268,PKB212,?,64,1
+269,PKB214,?,82,1
+270,PKB215,?,64,1
+271,PKB217,?,73,1
+272,PKB218,?,72,1
+273,PKB219,?,84,1
+274,PKB220,?,64,1
+275,PKB222,?,81,1
+276,PKB223,?,64,1
+277,PKB225,?,82,1
+278,PKB226,?,64,1
+279,PKB228,?,83,1
+280,PKB229,?,67,1
+281,PKB231,?,72,1
+282,PKB232,?,62,1
+283,PKB233,?,71,1
+284,PKB234,?,84,1
+285,PKB235,?,77,1
+286,PKB238,?,84,1
+287,PKB239,?,81,1
+288,PKB248,?,66,1
+289,PKB253,?,82,1
+290,PKB254,?,82,1
+291,PKB257,?,66,1
+292,PKB258,?,60,1
+293,PKB263,?,62,1
+294,PKB264,?,62,1
+295,PKB265,?,61,1
+296,PKB267,?,72,1
+297,PKB269,?,66,1
+298,PKB270,?,62,1
+299,PKB271,?,75,1
+300,PKB272,?,66,1
+301,PKB275,?,85,1
+302,PKB276,?,73,1
+303,PKB280,?,68,1
+304,PKB303,?,76,1
