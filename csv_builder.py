@@ -47,15 +47,20 @@ for name in names:
                     break
             if valid:
                 print(id, file, src,cnt,0 if knot else 1, sep = ",")
+                id+=1
             cnt = 0
-            id+=1
             knot = True
             valid = True
 
-f = open("RNA_PKB.txt", "r")
+f = open("RNA_PKB_old.txt", "r")
 lines = f.read().splitlines()
 for i in range(0, len(lines), 3):
     file = lines[i].split(":")[0].split(" ")[1]
     cnt = len(lines[i+1])
-    print(id, file, "?", cnt, 1, sep = ",")
-    id+=1
+    valid = True
+    for i in lines[i+1]:
+        if i not in "GCAUgcau":
+            valid = False
+    if valid:
+        print(id, file, "?", cnt, 1, sep = ",")
+        id+=1

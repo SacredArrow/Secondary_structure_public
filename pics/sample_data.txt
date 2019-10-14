@@ -2487,11 +2487,6 @@ UGGCCGGCAUGGUCCCAGCCUCCUCGCUGGCGCCGGCUGGGCAACAUUCCGAGGGGACCGUCCCCUCGGUAAUGGCGAAU
 GGGUCGGCAUGGCAUCUCCACCUCCUCGCGGUCCGACCUGGGCAUCCGAAGGAGGACGCACGUCCACUCGGAUGGCUAAGGGAGAGCCA
 (((((((........[[[[(((.......))))))))))...(((((((....((((....))))..)))))))......]]]].....
 
-# File:PKB77
-#  Tetrahymena thermophila (Tt-LSU_P3/P7)
-AGACCGUCAAA~CACAGACUAAAUGUCGGUCGGGGAAGAUGUAUUCUUCUCAUAAGAUAUAGUCGG
-.(((((.((..~..[.[[[[[..)).))))).(((((((.....)))))))........]]]]]].
-
 # File:PKB78
 #  AKV murine leukemia virus (AKV-MuLV)
 UAGGGGGGUCAGGGUCAGGAGCCCCCCCCUGAACCCAGGAUAACCCUCACUGUCGGGGGGCA
@@ -2516,16 +2511,6 @@ UAGGGGUGUCAGGGCUCUGGAGCCCCCCCCGAGCCCCGGCUAACUCUAUCUGUAGGGGGGCA
 #  Cas-Br-E murine leukemia virus (Cas-Br-E-MuLV)
 UAGGGGGGUCGGGGUCAGGAGCCCCCCCCUGAACCCAGGAUAACCCUCAAAGUCGGGGGGCAA
 ...........((((((((.[[[[[[[)))).))))..................]]]]]]]..
-
-# File:PKB128
-#  Berne virus (BEV)
-UUUAAACUGUUGAGAGGUGCCUGGAGCGCCUGCAGGCAUCUCUGUU~UAUAAUGCAGGCA
-............(((((((((((....[[[[[)))))))))))...~.......]]]]].
-
-# File:PKB129
-#  E.coli (Ec_16S-PK570/866)
-GCGUAAA~UGUCGACUUGGAGGUUGUGCCCUUGAGGCGUGGCUUCCGGAGCUAACGCGUUAAGUCGACC
-..((...~.[[[[[[..((((((((((((.....))))))))))))...[[..))]].....]]]]]].
 
 # File:PKB139
 #  tobacco mosaic virus (TMV-L_PKbulge)
@@ -2557,25 +2542,10 @@ UUGUCGUUGGGAUGGAACGCAAUUAAAUACAUGUGUGACGUGUAUUUGCGAACGACGUAAUUAUUUUUCAG
 UUGUGUAUAUGGAUCAUGCGGAUAAAGUUAUACUGGUGCAGUAUAACCCGUUAUACACAUAAAAUUAUGAG
 .((((((((....[[[[((((.....((((((((.....)))))))))))))))))))).......]]]].
 
-# File:PKB148
-#  Escherichia coli (Ec_23S-PKG12)
-CACGAAGGUUGGCUAAUCCUGGUCGGACAUCAGGAGGUUAGUGCAAUGGCAUAAGCCAGCUUG~GGUCAUAGU
-.((..((((((((((.((((((.......))))))...)).....[[[......)))))))).~.))]]]...
-
 # File:PKB169
 #  Coxsackie B virus (CoxB3)
 ACCCUACUGUGCUAACCGAACCAGAUAACGGUACAGUAGGGGUAAAUUCUCCGCAUUCGGUGCGGAAAAAAAA
 .((((((((((((.[[[[[[.........)))))))))))).....((.(((((.]]]]]]))))).))....
-
-# File:PKB170
-#  plasmid ColIb-P9 (ColIb-P9_repZ)
-AAGGAAAACCCCCACUAUCUUUCUUACGAACUUGGCGGAACGACGAAAGAUAGUGGGGGCCUC~AUCGCUCCGCCAU
-.(((....(((((((((((((((.........[[[[[[[.[[[.)))))))))))))))))).~.]]].]]]]]]].
-
-# File:PKB171
-#  human coronavirus 229E (HCV_229E)
-UUUAAACGAGUCCGGGGCUCUAGUGCCGCUCGACUAGAGCCCUGUAA~CAGUUAUGGACCACGAGCAGUCCAUGUA
-............((((((((((((...[[[[[))))))))))))...~....(((((((..]]]]].)))))))..
 
 # File:PKB173
 #  Satellite cereal yellow dwarf virus-RPV RNA (satRPV)
@@ -2587,110 +2557,45 @@ ACAGAGCGCGUACUGUCUGACGACGUAUCCGCGCGGACUAGAAGGCUGGUGCCUCGUCCAACAAAUAGAUACA
 UGCUCCUGAUGUCCCUCACCCACCCCUGAAGAUCCCAGGUGGGCGAGGGAACAGUCAGCGGGAUCACAGU
 ............(((((.((((((......[[[[[[.)))))).)))))..........]]]]]].....
 
-# File:PKB179
-#  plasmid pMU407.1 (IncL/M) (pMU407_repBA)
-AACCCCCUGAUCCUAUUUCAGAACUUUGGCCGGCUCGGAAUAGAAUCAGGGGGUG~CCCGGCCAAUAUG
-.((((((((((.(((((((.((...[[[[[[[[.))))))))).)))))))))).~.]]]]]]]]....
-
-# File:PKB180
-#  plasmid pMU720 (IncB) (pMU720_repBA)
-ACCCCCACUAUUUUUCCUCGAACUUGGCGGAACGCAGAAAAAUAAUGGGGGCC~GCUCCGCCAUA
-.((((((.((((((((..((....[[[[[[[.))..)))))))).))))))..~..]]]]]]]..
-
-# File:PKB193
-#  Escherichia coli (Ec_rpmI)
-ACAGAUGAAGGCGACUAUCAGGUAAAACUCCGCAGCCUGAUUCGCUUUCUCGA~AUGCGAAGUGGAAGUUAUUAAAAUGCCAA
-.(.((.((((((((..(((((((....[[.[[[[)))))))))))))))))).~.]]]].]](((..(((.....))).))).
-
-# File:PKB208
-#  Bovine viral diarrhea virus (BVDV_IRES)
-GGGUAGCAACAGUGGUGA~ACAGCCUGAUAGGGUGCUGCAGAGGCCCACUGUAUUGCUACUAAAAAUCUCUGCU
-.((((((((((((((((.~.))((((....))))...[[[[[[[.)))))))..))))))).....]]]]]]].
-
-# File:PKB209
-#  Classical swine fever virus (hog cholera virus) (CSFV_IRES)
-GACUAGCCGUAGUGGCGA~ACGACCUGAUAGGGUGCUGCAGAGGCCCACUAUUAGGCUAGUAUAAAAAUCUCUGCUG
-.((((((((((((((((.~.))((((....))))...[[[[[[[.)))))))..))))))).......]]]]]]]..
-
 # File:PKB210
 #  Bordetella pertussis (Bp_PK2)
 CCGCUGCACUGAUCUGUCCUUGGGUCAGGCGGGGGAAGGCAACUUCCCAGGGGGCAACCCCGAACCGCAGCAGCGACAUUCACAAGGAAU
 .((((((..(((...[[[[[[[..))).((((((((((....)))))).((((....))))...)))).)))))).......]]]]]]].
-
-# File:PKB211
-#  Plautia stali intestine virus (PSIV_IRES-PKII)
-UGACUAUGUGAUCUUAUUAAAAUUAGGUUAAAUUUCGAGGUUAAAAAUAGUUUUAAUAUUGCUAUAGUCU~ACCCUCGUGC
-.(((((((......(((((((((((..........[[[[[.......)))))))))))....))))))).~..]]]]]...
 
 # File:PKB212
 #  Plautia stali intestine virus (PSIV_IRES-PKIII)
 AGGUCUUGUAUAUUUAUACUUACCACACAAGAUGGACCGGAGCAGCCCUCCAAUAUCUAGUGUA
 .((((..((((....)))).....[[[[.[[[[[))))((((.....))))..]]]]].]]]].
 
-# File:PKB214
-#  Himetobi P virus (HiPV_IRES-PKII)
-CGAAAAUGUGUGAUCUGAUUAGAAGUAAGAAAAUUCCUAGUUAUAAUAUUUUUAAUACUGCUACAUUUUUA~ACCUAGGUGC
-.(((((((((.......((((((((((........[[[[[......)))))))))).....))))))))).~..]]]]]...
-
 # File:PKB215
 #  Himetobi P virus (HiPV_IRES-PKIII)
 GACCCUUAGUUAUUUAGCUUUACCGCCCAGGAUGGGGUGCAGCGUUCCUGCAAUAUCCAGGGCA
 .((((..((((....)))).....[[[[.[[[[[))))((((.....))))..]]]]].]]]].
-
-# File:PKB217
-#  lactate dehydrogenase-elevating virus, strain C (LDV-C)
-UUUAAACUGCUAGCCACCUCUGGUCUCGACCGCUGUACUAGAGGUGGGCUGACGGUGUYUGGCGAUGCGGUCA
-.............(((((((((((...[[[[[[...)))))))))))...................]]]]]].
 
 # File:PKB218
 #  Porcine reproductive and respiratory syndrome virus, North American isolate (16244B) (PRRSV-16244B)
 UUUAAACUGCUAGCCGCCAGCGGCUUGACCCGCUGUGGUCGCGGCGGCUUGGUUGUUACUGAGACAGCGGUA
 ............((((((.((((((....[[[[[[[))))))))))))...............]]]]]]]..
 
-# File:PKB219
-#  Drosophila C virus (DCV_IRES-PKII)
-AGUUAAGAUGUGAUCUUGCUUCCUUAUACAAUUUUGAGAGGUUAAUAAGAAGGAAGUAGUGCUAUCUUAAUA~ACCCUCUCUGC
-.(((((((((......(((((((((..........[[[[[[........)))))))))....))))))))).~..]]]]]]...
-
 # File:PKB220
 #  Drosophila C virus (DCV_IRES-PKIII)
 UUAGGUUAACUAUUUAGUUUUACUGUUCAGGAUGCCUAUUGGCAGCCCCAUAAUAUCCAGGACA
 .((((..((((....)))).....[[[[.[[[[[)))).(((.....)))...]]]]].]]]].
-
-# File:PKB222
-#  Cricket paralysis virus (CrPV_IRES-PKII)
-GCAAAAAUGUGAUCUUGCUUGUAAAUACAAUUUUGAGAGGUUAAUAAAUUACAAGUAGUGCUAUUUUUGU~CCCUCUCUGC
-.((((((((......(((((((((..........[[[[[[........)))))))))....)))))))).~.]]]]]]...
 
 # File:PKB223
 #  Cricket paralysis virus (CrPV_IRES-PKIII)
 UUAGGUUAGCUAUUUAGCUUUACGUUCCAGGAUGCCUAGUGGCAGCCCCACAAUAUCCAGGAAG
 .((((..((((....)))).....[[[[.[[[[[))))((((.....))))..]]]]].]]]].
 
-# File:PKB225
-#  Triatoma virus (TrV_IRES-PKII)
-CUUGACUAUGUGAUCUUGCUUUCGUAAUAAAAUUCUGUACAUAAAAGUCGAAAGUAUUGCUAUAGUUAAG~UGUACAGAAUU
-.(((((((((......((((((((.........[[[[[[[........))))))))....))))))))).~.]]]]]]]...
-
 # File:PKB226
 #  Triatoma virus (TrV_IRES-PKIII)
 UGCGCUUGCCUAUUUAGGCAUACUUCUCAGGAUGGCGCGUUGCAGUCCAACAAGAUCCAGGGAC
 .((((..((((....)))).....[[[[.[[[[.))))((((.....))))...]]]].]]]].
 
-# File:PKB228
-#  Black queen cell virus (BQCV_IRES-PKII)
-ACCAACAAUGUGAUCUUGCUUGCGGAGGCAAAAUUUGCACAGUAUAAAAUCUGCAAGUAGUGCUAUUGUUGGA~AACUGUGCU
-.(((((((((......((((((((((..........[[[[[[[......))))))))))....))))))))).~.]]]]]]].
-
 # File:PKB229
 #  Black queen cell virus (BQCV_IRES-PKIII)
 AUCACCGUACCUAUUUAGGUUUACGCUCCAAGAUCGGUGGAUAGCAGCCCUAUCAAUAUCUAGGAGA
 ..((((..((((....)))).....[[[[.[[[[.))))(((((.....)))))...]]]].]]]].
-
-# File:PKB231
-#  Rhopalosiphum padi virus (RhPV_IRES-PKII)
-UAGUGUUGUGUGAUCUUGCGCGAUAAAUGCUGACGUGAAAACGUUGCGUAUUGCUACAACACUU~ACGUCAC
-.(((((((((......((((((((......[[[[[.......))))))))....))))))))).~.]]]]].
 
 # File:PKB232
 #  Rhopalosiphum padi virus (RhPV_IRES-PKIII)
@@ -2716,11 +2621,6 @@ GGAGACCCAUGGAGAGUCUCCAGAGGUUCCUAAGGCCUCGAUCGCGCCUGCCGGGAGGCAGAAUGUCCCGGUUCUCC
 #  Dengue virus type 2 (DEN2_PK1)
 AUGGGGGCCCAAGGUGAGAUGAAGCUGUAGUCUCACUGGAAGGACUAGAGGUUAGAGGAGACCCCCCCAAAACAAAAAACAGCA
 .((((((((...((((((((...[[[[[.))))))))....))......((((......)))))))))).........]]]]].
-
-# File:PKB239
-#  human immunodeficiency virus type 1 (Mal isolate) (HIV1_lrPK)
-UGCUUAAGCCUCAAUAAAGCUUGCCUUGAGUGCCUCAAGCAG~AUAUAGACUGAAACAUUUAGUAUGGGCAAGCAGGGAGC
-.((((..(((((((....[[[[[[[))))).))...))))..~.(((..((((((...)))))))))]]]]]]].......
 
 # File:PKB248
 #  Nemesia ring necrosis virus (NeRNV_PKb)
