@@ -1,3 +1,6 @@
+echo "Enter archive prefix. (Like 'set_600')"
+read Prefix
+
 echo Starting sample picking...
 python3 sample_picker.py
 echo Samples picked.
@@ -9,7 +12,6 @@ echo Fasta for train...
 python3 only_sequences_for_parsing.py sample_train.txt > train.fasta
 echo Cleaning folders...
 cd sets
-pwd
 rm test/*
 rm train/*
 rm validate/*
@@ -21,4 +23,8 @@ echo Running dot2img...
 python3 dot2img.py ./test/sample_test.txt ./test
 python3 dot2img.py ./train/sample_train.txt ./train
 python3 dot2img.py ./validate/sample_validate.txt ./validate
+echo Zipping...
+zip -r "${Prefix}_pics.zip" test train validate > /dev/null
+cd ..
+zip "${Prefix}_fastas.zip" validate.fasta train.fasta test.fasta > /dev/null
 echo Done!
