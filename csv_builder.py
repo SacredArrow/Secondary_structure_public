@@ -1,4 +1,4 @@
-names = ["ASE", "CRW", "PDB", "RFA", "TMR", "NDB", "SPR", "SRP" ] #PKB is different
+names = ["ASE", "CRW", "PDB", "RFA", "TMR", "NDB", "SPR", "SRP", "SYN3", "SYN6", "SYN8", "CEN" ] #PKB is different
 id = 1
 print("ID,Name,Source,Length,has_knots")
 decent_symbols = "GCAUgcau"

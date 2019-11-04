@@ -6,7 +6,7 @@ in_file = sys.argv[1] #file with all samples info: id, seq, dot
 out_dir = sys.argv[2]
 if out_dir[-1] != "/":
     out_dir += "/"
-size = 600
+size = 90
 codes = {'A': 32, 'C': 64, 'G': 96, 'U': 128, 'T': 128}
 
 
@@ -24,6 +24,7 @@ def process_sample(i_d, seq, dot):
                 while True:
                     if j < 0:
                         print("Pairing error!")
+                        print(seq, dot)
                         exit(0)
                     if stack[j][1] == paired:
                         # print(stack[j][0], i)
@@ -39,7 +40,6 @@ def process_sample(i_d, seq, dot):
         print(stack)
         print("Error")
         exit(0)
-    num = 1
     img = Image.new('L', (size, size), (0)) #black background, white points
     pixels = np.array(img)
     for el in mtrx:
@@ -49,7 +49,6 @@ def process_sample(i_d, seq, dot):
     for i in range(len(seq)):
         pixels[i][i] = codes[seq[i]] #draw sequence at the diagonal
     Image.fromarray(pixels).save(out_dir + id + '.png')
-    num+=1
 
 
 

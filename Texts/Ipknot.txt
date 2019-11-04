@@ -7,3 +7,5 @@ https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2007-7 -
 http://rtips.dna.bio.keio.ac.jp/ipknot/help.html#refine - параметры IPknot
 -r - refinement
 -e - model - nupack for short
+
+https://pdfs.semanticscholar.org/3dff/9819adf8bcd322dc132f9ef99434e80d37af.pdf - Сравнение тулов
