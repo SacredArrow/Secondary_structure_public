@@ -9,3 +9,4 @@ http://rtips.dna.bio.keio.ac.jp/ipknot/help.html#refine - параметры IPk
 -e - model - nupack for short
 
 https://pdfs.semanticscholar.org/3dff/9819adf8bcd322dc132f9ef99434e80d37af.pdf - Сравнение тулов
+https://www.biorxiv.org/content/biorxiv/early/2018/04/17/303172.full.pdf - псевдоузли и нейронки

@@ -1,4 +1,5 @@
-names = ["ASE", "CRW", "PDB", "RFA", "TMR", "NDB", "SPR", "SRP", "SYN3", "SYN6", "SYN8", "CEN" ] #PKB is different
+# names = ["ASE", "CRW", "PDB", "RFA", "TMR", "NDB", "SPR", "SRP", "SYN3", "SYN6", "SYN8", "CEN" ] #PKB is different
+names = ["CEN"]
 id = 1
 print("ID,Name,Source,Length,has_knots")
 decent_symbols = "GCAUgcau"
@@ -57,15 +58,15 @@ for name in names:
             knot = True
             valid = True
 
-f = open("RNA_PKB_old.txt", "r")
-lines = f.read().splitlines()
-for i in range(0, len(lines), 3):
-    file = lines[i].split(":")[0].split(" ")[1]
-    cnt = len(lines[i+1])
-    valid = True
-    for i in lines[i+1]:
-        if i not in decent_symbols:
-            valid = False
-    if valid:
-        print(id, file, "?", cnt, 1, sep = ",")
-        id+=1
+# f = open("RNA_PKB_old.txt", "r")
+# lines = f.read().splitlines()
+# for i in range(0, len(lines), 3):
+#     file = lines[i].split(":")[0].split(" ")[1]
+#     cnt = len(lines[i+1])
+#     valid = True
+#     for i in lines[i+1]:
+#         if i not in decent_symbols:
+#             valid = False
+#     if valid:
+#         print(id, file, "?", cnt, 1, sep = ",")
+#         id+=1

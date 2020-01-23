@@ -1,5 +1,7 @@
 echo "Enter archive prefix. (Like 'set_600')"
 read Prefix
+echo "Enter name of 2img program. (Like dot2img.py)"
+read ToImg
 
 echo Starting sample picking...
 python3 sample_picker.py
@@ -20,11 +22,11 @@ mv ../sample_validate.txt ./validate/sample_validate.txt
 mv ../sample_test.txt ./test/sample_test.txt
 mv ../sample_train.txt ./train/sample_train.txt
 echo Running dot2img...
-python3 dot2img.py ./test/sample_test.txt ./test
-python3 dot2img.py ./train/sample_train.txt ./train
-python3 dot2img.py ./validate/sample_validate.txt ./validate
+python3 $ToImg ./test/sample_test.txt ./test
+python3 $ToImg ./train/sample_train.txt ./train
+python3 $ToImg ./validate/sample_validate.txt ./validate
 echo Zipping...
-zip -r "${Prefix}_pics.zip" test train validate > /dev/null
+zip -r "${Prefix}_pics.zip" test train validate ../validate.csv ../train.csv ../test.csv > /dev/null
 cd ..
 zip "${Prefix}_fastas.zip" validate.fasta train.fasta test.fasta > /dev/null
 echo Done!

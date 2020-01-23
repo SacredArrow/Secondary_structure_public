@@ -1,5 +1,5 @@
 base = open("RNA_CEN.txt", "r")
-fasta = open("out2.fasta", "r")
+fasta = open("centroid_cleared.txt", "r")
 out = open("../RNA_CEN.txt", "w")
 fasta = fasta.read().splitlines()
 ix = 2
