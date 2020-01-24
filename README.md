@@ -2,17 +2,23 @@
 
 The repository contains scripts that are used to handle data for my course project in SPbU/Bioinformatics Institute.
 
-[TOC]
+- [Goals of the project](#goals)
+- [Description and examples](#description)
+- [Links](#links)
+
+<a name="goals"/>
 
 ### Goals of the project
 
 The project is aimed to develop an efficient way of RNA secondary structure prediction including pseudoknots. The data is processed using scripts in this repository, then it is used to  teach a neural network to predict secondary structure based on primary structure of RNA.
 
+<a name="description"/>
+
 ### Description and examples
 
 To prepare data following steps are done:
-1. Databases are collected in RNA_xxx.txt files
-2. `csv_builder.py` is run, making one .csv file
+1. Databases are collected in RNA_xxx.txt files.
+2. `csv_builder.py` is run, making one .csv file.
 2a (Optional). Data is manually processed in `Notebook.ipynb`.
 3. `./process_csv.sh` is run, shuffling them into 3 sets, making pictures from them and zipping the together.
 
@@ -26,6 +32,8 @@ To prepare data following steps are done:
 |  Scripts/ | A bunch of scripts used to data manipulation. For more info see README.md inside the folder  |   |
 | RnaCentral/   | Scripts used to work with data extracted from RNACentral database   |   |
 | playground/  | Some auxiliary scripts  |   |
+
+<a name="links"/>
 
 ### Links
 - https://rnacentral.org/
