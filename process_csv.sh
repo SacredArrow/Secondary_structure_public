@@ -1,7 +1,13 @@
 read -p "Enter archive prefix (Like 'set_600'): " Prefix
 echo
-read -p "Enter name of 2img program (Default is dot2img.py): " ToImg
+read -p "Enter name of 2img program [dot2img.py]: " ToImg
 ToImg=${ToImg:-dot2img.py}
+read -p "Automate csv creation? Yes/No [Yes]" Automate
+Automate=${Automate:-Yes}
+if [ "$Automate" = "Yes" ]; then
+  echo "Shuffling file"
+  python3 notebook_script.py
+fi
 
 script_path="$(realpath $(dirname "$0"))"
 cd $script_path # For paths to work (scripts require full path anyway)
@@ -16,12 +22,6 @@ echo Fasta for train...
 python3 ./Scripts/only_sequences_for_parsing.py "$script_path/sample_train.txt" > train.fasta
 echo Cleaning folders... # Clean-up of old pictures
 cd sets
-# for f in test/*; do rm "$f"; done
-# for f in train/*; do rm "$f"; done
-# for f in validate/*; do rm "$f"; done
-# find ./test/ -maxdepth 1 -name '*' -delete
-# find ./train/ -maxdepth 1 -name '*' -delete
-# find ./validate/ -maxdepth 1 -name '*' -delete
 rm -r test/
 rm -r train/
 rm -r validate/
