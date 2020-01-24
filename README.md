@@ -9,6 +9,14 @@ The repository contains scripts that are used to handle data for my course proje
 The project is aimed to develop an efficient way of RNA secondary structure prediction including pseudoknots. The data is processed using scripts in this repository, then it is used to  teach a neural network to predict secondary structure based on primary structure of RNA.
 
 ### Description and examples
+
+To prepare data following steps are done:
+1. Databases are collected in RNA_xxx.txt files
+2. `csv_builder.py` is run, making one .csv file
+2a (Optional). Data is manually processed in `Notebook.ipynb`.
+3. `./process_csv.sh` is run, shuffling them into 3 sets, making pictures from them and zipping the together.
+
+
 |  File/Folder |  Description |  Example |
 | ------------ | ------------ | ------------ |
 |process_csv.sh   | Main script, containg whole workflow. Gets a csv(see `notebook_script.py`, shuffles it info 3 sets, creates 3 samples, makes pics and zips everything into 2 sets - with pics and with fastas   |  `./process_csv.sh` |
