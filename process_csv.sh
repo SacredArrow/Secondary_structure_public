@@ -21,7 +21,7 @@ python3 ./Scripts/only_sequences_for_parsing.py "$script_path/sample_test.txt" >
 echo Fasta for train...
 python3 ./Scripts/only_sequences_for_parsing.py "$script_path/sample_train.txt" > train.fasta
 echo Cleaning folders... # Clean-up of old pictures
-cd sets
+cd Sets
 rm -r test/
 rm -r train/
 rm -r validate/

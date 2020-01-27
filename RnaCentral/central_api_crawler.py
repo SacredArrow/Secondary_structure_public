@@ -21,5 +21,5 @@ while r.json()["next"]:
         f_base.write(seq + "\n\n")
         f_seq.write(seq + "\n")
     next = r.json()["next"]
-    r = requests.get(next) # переходим на след. страницу
+    r = requests.get(next) # fetch next page
 f_seq.close()
