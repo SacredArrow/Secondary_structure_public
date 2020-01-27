@@ -20,7 +20,7 @@ To prepare data following steps are done:
 1. Databases are collected in RNA_xxx.txt files.
 2. `csv_builder.py` is run, making one .csv file.  
 2a (Optional). Data is manually processed in `Notebook.ipynb`.
-3. `./process_csv.sh` is run, shuffling them into 3 sets, making pictures from them and zipping the together.
+3. `./process_csv.sh` is run, shuffling them into 3 sets, making pictures from them and zipping them together.
 
 
 |  File/Folder |  Description |  Example |
