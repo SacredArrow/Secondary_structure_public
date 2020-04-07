@@ -42,6 +42,7 @@ def process_sample(i_d, seq, dot):
                 # print(dot[i], " not in pairs")
                 stack.append((i, dot[i])) # Opening brackets go to stack
     if len(stack) != 0:
+        print(i_d, seq,dot)
         print(stack)
         print("Error")
         exit(0)

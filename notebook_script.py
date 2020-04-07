@@ -3,7 +3,8 @@ import pandas as pd
 import seaborn as sns
 
 sns.set(rc={'figure.figsize':(11.7,8.27)})
-df = pd.read_csv("Csvs/out_only_pseudobase.csv")
+# df = pd.read_csv("Csvs/out_only_pseudobase.csv")
+df = pd.read_csv("Csvs/set_only_pseudobase.csv")
 # df_out = df[(df.Length <=90) & (df.Length >=50)]
 df_out = df
 df_out = df_out.reset_index().drop(["index", "ID"], axis = 1)

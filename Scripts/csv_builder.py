@@ -1,11 +1,13 @@
 # Makes csv from databases to work with
 # names = ["ASE", "CRW", "PDB", "RFA", "TMR", "NDB", "SPR", "SRP", "SYN3", "SYN6", "SYN8", "CEN" ] #PKB is different
+# CRW has some issues with workflow
+from pathlib import Path
 names = ["PKB"]
 id = 1
 print("ID,Name,Source,Length,has_knots")
 decent_symbols = "GCAUgcau"
 for name in names: # For every database
-    f = open("../RNA_banks/RNA_" + name + ".txt", "r")
+    f = open(str(Path(__file__).parent.absolute()) + "/../RNA_banks/RNA_" + name + ".txt", "r")
     lines = f.read().splitlines()
     i=0
     src = ""

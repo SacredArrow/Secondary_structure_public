@@ -42,9 +42,17 @@ for set in sets:
             f = open(banks_folder + "/RNA_" + bank + ".txt", "r")
             bank_lines = f.read().splitlines()
         f_out.write("# ID : " + id + "\n")
-        ix = banks[bank][line]
-        for i in range(9): # Read all related lines
-            if ix + i < len(bank_lines):
-                f_out.write(bank_lines[ix + i] + "\n")
+        ix = banks[bank][line] # Read all related lines
+        i = 0
+        while len(bank_lines[ix + i]) > 0 and bank_lines[ix + i][0] == "#": # Header
+            f_out.write(bank_lines[ix + i] + "\n")
+            i+=1
+        while len(bank_lines[ix + i]) == 0 or bank_lines[ix + i][0] in "ACGUacgu": # Sequence
+            f_out.write(bank_lines[ix + i] + "\n")
+            i+=1
+        while ix + i < len(bank_lines) and len(bank_lines[ix + i]) != 0 and bank_lines[ix + i][0] != "#": # Dot
+            f_out.write(bank_lines[ix + i] + "\n")
+            i+=1
+        f_out.write("\n")
         old_bank = bank
     f_out.close()
