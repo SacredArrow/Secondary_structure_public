@@ -36,6 +36,6 @@ python3 $ToImg ./train/sample_train.txt ./train
 python3 $ToImg ./validate/sample_validate.txt ./validate
 echo Zipping... # Zip all files and fastas in separate archives
 zip -r "${Prefix}_pics.zip" test train validate ../validate.csv ../train.csv ../test.csv > /dev/null
+zip "${Prefix}_fastas.zip" ../validate.fasta ../train.fasta ../test.fasta > /dev/null
 cd ..
-zip "${Prefix}_fastas.zip" validate.fasta train.fasta test.fasta > /dev/null
 echo Done!

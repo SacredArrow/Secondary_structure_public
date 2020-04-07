@@ -1,17 +1,17 @@
 # Makes csv from databases to work with
 # names = ["ASE", "CRW", "PDB", "RFA", "TMR", "NDB", "SPR", "SRP", "SYN3", "SYN6", "SYN8", "CEN" ] #PKB is different
-names = ["CEN"]
+names = ["PKB"]
 id = 1
 print("ID,Name,Source,Length,has_knots")
 decent_symbols = "GCAUgcau"
 for name in names: # For every database
-    f = open("RNA_" + name + ".txt", "r")
+    f = open("../RNA_banks/RNA_" + name + ".txt", "r")
     lines = f.read().splitlines()
     i=0
     src = ""
     file = ""
     cnt = 0
-    knot = True
+    no_knot = True
     valid = True
     while(i<len(lines)):
         line = lines[i].strip(" ")
@@ -44,7 +44,7 @@ for name in names: # For every database
                 cnt+=len(line)
                 for j in line:
                     if j not in ".()": # Search for pseudoknots
-                        knot = False
+                        no_knot = False
                 # print(cnt, line)
                 # break
                 i+=1
@@ -53,10 +53,11 @@ for name in names: # For every database
                 else:
                     break
             if valid:
-                print(id, file, src,cnt,0 if knot else 1, sep = ",")
+                print(id, file, src,cnt,0 if no_knot else 1, sep = ",")
                 id+=1
+
             cnt = 0
-            knot = True
+            no_knot = True
             valid = True
 
 # f = open("RNA_PKB_old.txt", "r")
