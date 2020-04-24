@@ -11,6 +11,6 @@ To prepare data downloaded from RnaCentral site following steps are reqired:
 |  File/Folder |  Description |  Example |
 | ------------ | ------------ | ------------ |
 |merge_fasta_and_centroid.py   | Merges file and centroid_fold result to bank file.   |  See above |
-|central_api_crawler.py   | Uses RNACentral API. Is useful, when there is no ability to download from site directly. Not recommended in general  | `python3 central_api_crawler.py`  |
+|central_api_crawler.py   | Uses RNACentral API. Is useful, when there is no ability to download from site directly. Not recommended in general.  | `python3 central_api_crawler.py`  |
 | seqs_to_fasta.py  | Converts crawler result to fasta file.  | `python3 seqs_to_fasta.py `  |
 | sec_to_RNA_file.py | Merges secondary structure and crawling result. | `python3 sec_to_RNA_file.py ` |
