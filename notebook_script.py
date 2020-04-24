@@ -4,7 +4,7 @@ import seaborn as sns
 
 sns.set(rc={'figure.figsize':(11.7,8.27)})
 # df = pd.read_csv("Csvs/out_only_pseudobase.csv")
-df = pd.read_csv("Csvs/set_only_pseudobase.csv")
+df = pd.read_csv("Csvs/out_central_70K_90l_noblack.csv")
 # df_out = df[(df.Length <=90) & (df.Length >=50)]
 df_out = df
 df_out = df_out.reset_index().drop(["index", "ID"], axis = 1)
@@ -20,4 +20,4 @@ df_out = df_out.drop(df_validate.index)
 
 df_out.to_csv("train.csv")
 df_test.to_csv("test.csv")
-df_validate.to_csv("validate.csv")
+df_validate.to_csv("valid.csv")

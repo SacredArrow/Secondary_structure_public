@@ -11,7 +11,7 @@ while i < len(data):
     # print(i, data[i])
     if (data[i].strip() == "" or data[i][0] == "#"):
         if "ID : " in data[i]:
-            id = data[i].split(":")[1] # Extract last ID
+            id = data[i].split(":")[1][1:] # Extract last ID, without spaces
         i+=1
     else: # Collect sequence and dot-bracket
         seq = ""
@@ -24,5 +24,5 @@ while i < len(data):
         while (i < len(data) and data[i].strip() != ""):
             dot+=data[i]
             i+=1
-        print("> " + str(id))
+        print(">" + id)
         print(seq.upper())

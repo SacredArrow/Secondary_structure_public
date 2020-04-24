@@ -18,7 +18,7 @@ if len(sys.argv) != 4:
 in_folder = sys.argv[1] # Full paths
 out_folder = sys.argv[2]
 banks_folder = sys.argv[3]
-sets = ["train", "test", "validate"]
+sets = ["train", "test", "valid"]
 banks = {}
 old_bank = "" # Performance causa
 for set in sets:
